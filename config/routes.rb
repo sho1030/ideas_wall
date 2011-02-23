@@ -1,11 +1,19 @@
 IdeasWall::Application.routes.draw do
+  match '/contact', :to => 'pages#contact'
+  match '/about', :to => 'pages#about'
+  
+  root :to => 'pages#home'
+  match '/signin', :to => 'pages#signin' 
+  match '/signup', :to => 'pages#signup'
+  
+  
   get "pages/about"
 
   get "pages/home"
 
   get "pages/contact"
 
-  # The priority is based upon order of creation:
+  # The priority is based upon order o  f creation:
   # first created -> highest priority.
 
   # Sample of regular route:

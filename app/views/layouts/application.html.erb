@@ -3,8 +3,15 @@
   <head>
     <title>Dreamkit Idea Wall | <%= @title %></title>
     <%= csrf_meta_tag %>
+    <%= render 'layouts/stylesheets' %>    
   </head>
   <body>
-    <%= yield %>
+  <div class="head">
+    <%= render 'layouts/header' %>
+      <section class= "body">
+      <%= yield %>
+      </section>
+      <%= render 'layouts/footer' %>
+    </div>
   </body>
 </html>

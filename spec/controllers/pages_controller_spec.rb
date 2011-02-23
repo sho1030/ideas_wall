@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe PagesController do
-
+  render_views
   describe "GET 'home'" do
     
     it "should be successful" do
@@ -12,7 +12,7 @@ describe PagesController do
     it "should have the right title" do
       get 'home'
       response.should have_selector("title", 
-                                    :content => "DreamKit Idea Wall | Home")
+                                    :content => "Dreamkit Idea Wall | Home")
     end
    end
 
@@ -25,7 +25,7 @@ describe PagesController do
     it "should have the right title" do
       get 'contact'
       response.should have_selector("title", 
-                                    :content => "DreamKit Idea Wall | Contact")
+                                    :content => "Dreamkit Idea Wall | Contact")
     end
   end
 
@@ -38,7 +38,7 @@ describe PagesController do
     it "should have the right title" do
       get 'about'
       response.should have_selector("title", 
-                                    :content => "DreamKit Idea Wall | About")
+                                    :content => "Dreamkit Idea Wall | About")
     end
   end
 
