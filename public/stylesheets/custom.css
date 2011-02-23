@@ -1,0 +1,95 @@
+/* Layout */
+
+.head {
+	width: 760px;
+}
+
+body {
+	background : #fff;
+}
+
+header {
+	padding-top:0px;
+}
+
+header img {
+	padding: 0em;
+	background: #fff;
+}
+
+section {
+	margin-top:1em;
+	font-size: 100%;
+	padding:10px;
+	backgorund: #fff;	
+}
+
+section h1 {
+	font-size: 140%;
+}
+
+/* Links & Menu */
+
+a {
+color : #000;
+text-decoration: none;
+}
+
+a:hover {
+	color :#00c;
+    text-decoration: underline;
+}
+
+a:visite d {
+	color: #000;
+}
+
+/* Navigation Menu */
+
+nav {
+	float:right;
+	padding: 0.0.7em;
+	white-space: nowrap;
+}
+
+nav ul {
+	margin: 0em;
+	padding:10px;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0.3em;
+	font-weight: bold;
+}
+
+
+nav ul li a:visited {
+	color: #000;
+}
+
+
+/* Sign in button */
+
+a.signin_sidebar {
+	margin: 0px;
+
+a.signin_button {
+ margin-left: auto;
+ margin-right: auto;
+ 
+}
+} 
+
+/* footer */
+
+footer {
+	text-align: center;
+	margin-top: 10px;
+	width: 760px;
+}
+
+footer nav {
+	float: none;
+}
+

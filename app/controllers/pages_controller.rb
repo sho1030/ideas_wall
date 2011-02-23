@@ -10,13 +10,6 @@ class PagesController < ApplicationController
   def about
     @title = "About"
   end
-  
-  def signup
-    @title = "Signup"
-  end
-  
-  def signin
-    @title = "Signin"
-  end
+
 
 end

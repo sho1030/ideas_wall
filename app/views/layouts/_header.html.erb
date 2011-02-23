@@ -1,0 +1,13 @@
+<header>
+  <% logo = image_tag("logo.png", :alt => "DreamKit", :class => "logo") %>  
+ <%= link_to logo, root_path %>
+ <nav class="logo">
+ 
+  <ul> 
+     <li><%= link_to "Home",root_path %></li>
+     <li><%= link_to "Sign up", 'signup' %></li>
+     <li><%= link_to "Sign in", 'signin' %></li>
+     <li><a href ="http://www.dreamkit.net">DreamKit</a></li>
+  </ul>
+ </nav>
+</header>
